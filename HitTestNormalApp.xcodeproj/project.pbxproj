@@ -14,6 +14,9 @@
 		4D9C39A91F57647200B6A327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C39A71F57647200B6A327 /* LaunchScreen.storyboard */; };
 		4D9C39B21F5764AA00B6A327 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9C39B11F5764AA00B6A327 /* SceneKit.framework */; };
 		4D9C39B41F5764D100B6A327 /* Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C39B31F5764D100B6A327 /* Scene.scn */; };
+		4DB1AB061F585A8100E3445C /* VectorThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1AB051F585A8100E3445C /* VectorThree.swift */; };
+		4DB1AB081F585B0800E3445C /* GLKit+SceneKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1AB071F585B0800E3445C /* GLKit+SceneKit.swift */; };
+		4DB1AB0A1F585B4700E3445C /* GLKQuaternion+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB1AB091F585B4700E3445C /* GLKQuaternion+Swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		4D9C39AA1F57647200B6A327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9C39B11F5764AA00B6A327 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		4D9C39B31F5764D100B6A327 /* Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Scene.scn; sourceTree = "<group>"; };
+		4DB1AB051F585A8100E3445C /* VectorThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorThree.swift; sourceTree = "<group>"; };
+		4DB1AB071F585B0800E3445C /* GLKit+SceneKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GLKit+SceneKit.swift"; sourceTree = "<group>"; };
+		4DB1AB091F585B4700E3445C /* GLKQuaternion+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GLKQuaternion+Swift.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 			children = (
 				4D9C399E1F57647200B6A327 /* AppDelegate.swift */,
 				4D9C39A01F57647200B6A327 /* ViewController.swift */,
+				4DB1AB051F585A8100E3445C /* VectorThree.swift */,
+				4DB1AB071F585B0800E3445C /* GLKit+SceneKit.swift */,
+				4DB1AB091F585B4700E3445C /* GLKQuaternion+Swift.swift */,
 				4D9C39B31F5764D100B6A327 /* Scene.scn */,
 				4D9C39A21F57647200B6A327 /* Main.storyboard */,
 				4D9C39A51F57647200B6A327 /* Assets.xcassets */,
@@ -154,6 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D9C39A11F57647200B6A327 /* ViewController.swift in Sources */,
+				4DB1AB0A1F585B4700E3445C /* GLKQuaternion+Swift.swift in Sources */,
+				4DB1AB081F585B0800E3445C /* GLKit+SceneKit.swift in Sources */,
+				4DB1AB061F585A8100E3445C /* VectorThree.swift in Sources */,
 				4D9C399F1F57647200B6A327 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +332,7 @@
 				4D9C39AF1F57647200B6A327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
